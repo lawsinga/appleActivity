@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity_sing">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="Welcome to this fun game." />
+
+
+    <!-- 一個置中的 "Start Game" 按鈕 -->
+
+    <ImageView
+        android:id="@+id/cat_BG"
+        android:layout_width="375dp"
+        android:layout_height="375dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome_text"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/start_cat" />
+
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat_BG"
+        android:layout_marginTop="35dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Start Game"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/go_back_to_main_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_game_button"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Go back to main page"
+        android:textSize="22sp" />
+
+
+
+
+</RelativeLayout>
